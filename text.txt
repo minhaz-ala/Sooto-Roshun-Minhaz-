@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Happy Birthday My Love 💖</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;600&display=swap');
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #fcefee, #fbd1d7, #f9bbc3);
+    color: #6b0a3a;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.8rem;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 6px #f9a3b3;
+  }
+  p.subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px #f5c7ce;
+  }
+  .images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  .images img {
+    width: 150px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(255, 192, 203, 0.65);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  .images img:hover {
+    transform: scale(1.1) rotate(-7deg);
+    box-shadow: 0 15px 35px rgba(255, 105, 180, 0.9);
+  }
+  h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.8rem;
+    margin-bottom: 22px;
+    color: #8b3464;
+    text-shadow: 2px 2px 4px #f9a3b3;
+  }
+  iframe {
+    width: 90vw;
+    max-width: 420px;
+    height: 215px;
+    border-radius: 18px;
+    margin: 15px 0 30px 0;
+    box-shadow: 0 12px 28px rgba(215, 93, 133, 0.6);
+  }
+  form.quiz {
+    max-width: 420px;
+    background: #fff0f3;
+    padding: 30px 30px 45px 30px;
+    border-radius: 38px;
+    box-shadow: 0 10px 30px rgba(215, 93, 133, 0.45);
+    text-align: left;
+    margin-bottom: 35px;
+  }
+  form.quiz label {
+    font-weight: 700;
+    color: #7a3050;
+    margin: 18px 0 8px 0;
+    display: block;
+    cursor: pointer;
+  }
+  form.quiz input[type="radio"] {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  form.quiz button {
+    margin-top: 30px;
+    width: 100%;
+    padding: 16px 0;
+    background: #d75d85;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 0 7px 18px rgba(215, 93, 133, 0.9);
+    transition: background 0.3s ease;
+  }
+  form.quiz button:hover {
+    background: #f07cae;
+    box-shadow: 0 12px 28px rgba(240, 124, 174, 0.95);
+  }
+  #result {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #b34b6a;
+    text-align: center;
+    margin-top: 25px;
+    min-height: 32px;
+  }
+  footer {
+    margin-top: auto;
+    font-size: 1rem;
+    color: #a05d76;
+    padding-bottom: 18px;
+  }
+</style>
+</head>
+<body>
+
+  <h1>Happy Birthday, My Love! 💖</h1>
+  <p class="subtitle">Wishing you a day as beautiful and sweet as you are.</p>
+
+  <div class="images">
+    <img src="https://static.vecteezy.com/system/resources/previews/041/178/126/non_2x/ai-generated-watercolor-and-painting-cute-doll-girl-with-dress-cartoon-free-png.png" alt="Cute Doll" />
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuIwVAiA-1Shs0UvpljpqiVsPMr4e07nQ3qOP9M4zM3tQ_MiGntYh0J80&s=10" alt="Teddy Bear" />
+  </div>
+<audio id="myAudio" autoplay playsinline>
+        <source src="music/darkhast#trending #favorite #song.mp3.mp3" type="audio/mpeg">
+        <source src="music/darkhast#trending #favorite #song.mp3.ogg" type="audio/ogg">
+    </audio>
+  <h2>Sweet Quiz For You ❤️</h2>
+  <form class="quiz" id="quizForm">
+    <label for="q1a">
+      <input type="radio" name="q1" id="q1a" value="a" required /> My favorite color is Pink
+    </label>
+    <label for="q1b">
+      <input type="radio" name="q1" id="q1b" value="b" /> Blue
+    </label>
+    <label for="q1c">
+      <input type="radio" name="q1" id="q1c" value="c" /> Green
+    </label>
+
+    <label for="q2a">
+      <input type="radio" name="q2" id="q2a" value="a" required /> Our favorite song is All of Me
+    </label>
+    <label for="q2b">
+      <input type="radio" name="q2" id="q2b" value="b" /> Perfect
+    </label>
+    <label for="q2c">
+      <input type="radio" name="q2" id="q2c" value="c" /> Blue
+    </label>
+
+    <label for="q3a">
+      <input type="radio" name="q3" id="q3a" value="a" required /> I love Teddy Bears
+    </label>
+    <label for="q3b">
+      <input type="radio" name="q3" id="q3b" value="b" /> Cats
+    </label>
+    <label for="q3c">
+      <input type="radio" name="q3" id="q3c" value="c" /> Dogs
+    </label>
+
+    <button type="submit">Submit Answers</button>
+  </form>
+
+  <div id="result"></div>
+
+  <footer>Made with ❤️ just for you</footer>
+
+  <script>
+    const quizForm = document.getElementById('quizForm');
+    const resultDiv = document.getElementById('result');
+
+    quizForm.addEventListener('submit', e => {
+      e.preventDefault();
+      let score = 0;
+      if (quizForm.q1.value === 'a') score++;
+      if (quizForm.q2.value === 'a') score++;
+      if (quizForm.q3.value === 'a') score++;
+
+      if(score === 3) {
+        resultDiv.textContent = `Perfect! You know me so well! ${score} / 3 💖`;
+      } else {
+        resultDiv.textContent = `You scored ${score} out of 3. Love you always! 💕`;
+      }
+    });
+  </script>
+
+</body>
+</html>
